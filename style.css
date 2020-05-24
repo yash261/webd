@@ -1,0 +1,36 @@
+body{
+    background-color:#DCDCDC;
+}
+h1{ 
+    text-align: center;
+    font-family:cursive;
+    font-style: oblique;
+    font-size: 50px;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes colorchange{
+    0%{
+        color: darkviolet;
+    }
+    50%{
+        color:brown;
+    }
+    75%{
+        color:limegreen;
+    }
+    100%{
+        color:darkslateblue;
+    }
+}
+#outer{
+    background-color:black;
+border-style:solid;
+display: flex;
+border-collapse: collapse;
+}
+h2{
+    color:whitesmoke;
+    font-style: italic;
+}
